@@ -45,8 +45,10 @@ p {
 nav {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	max-width: 1100px;
+	margin: 0 auto
 }
 
 .menu {
@@ -61,7 +63,7 @@ nav {
 	color: black;
 }
 
-menu a:hover {
+.menu a:hover {
 	background-color: #f195b2;
 	border-radius: 20px;
 	color: white;
@@ -76,7 +78,7 @@ menu a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-right: 40%;
+	
 }
 
 .poteseni {
@@ -84,15 +86,17 @@ menu a:hover {
 	color: white;
 	padding-top: 60px;
 	padding-bottom: 30px;
-	margin: 0;
+	margin: 0 auto;
+	max-width: 1100px;
 }
 
 .text-hero {
 	font-size: 24px;
 	color: white;
-	margin: 0;
+	margin: 0 auto;
 	font-style: italic;
 	padding-bottom: 60px;
+	max-width: 1100px;
 }
 
 .vitejte {
@@ -112,12 +116,14 @@ menu a:hover {
 }
 
 .cukrarka {
-	width: 500px;
+	width: 540px;
 	border-radius: 5px;
+	margin: 5px;
 }
 
 .nadpis02 {
 	font-size: 36px;
+	color: #3e606b;
 }
 
 .box01 div {
@@ -125,10 +131,96 @@ menu a:hover {
 	padding-right: 30px;
 }
 
+.box01 p {
+	margin-bottom: 35px;
+}
+
 .box01 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	padding: 15px 40px;
 	background-color: #f195b2;
 	border-radius: 30px;
+}
+
+.box01 a:hover {
+	background-color: #d2567d;
+}
+
+.dnesninabidka {
+	background-color: #f0f0f0;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.nabidkatext {
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.produkty {
+	display: flex;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.produkt {
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 20px;
+	background-color: white;
+}
+
+.produkt img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.nabidkatext h2 {
+	color:#3e606b;
+	font-size: 36px;
+	margin-top: 0;
+}
+
+.popis {
+	padding: 20px;
+}
+
+.popis h3 {
+	margin: 0;
+}
+
+.popis p {
+	margin-bottom: 0;
+}
+
+.pristup {
+	display: flex;
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+}
+
+.pristup-text {
+	padding-left: 30px
+}
+
+.peceni {
+	width: 550px;
+	border-radius: 5px;
+	
+}
+
+footer {
+	background-color: #242424;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+
+footer p {
+	margin: 0;
 }
