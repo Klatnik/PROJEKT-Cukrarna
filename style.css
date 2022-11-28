@@ -34,6 +34,7 @@ body {
 }
 
 section {
+	width: 100%;
 	padding: 80px 0;
 	margin: 0 auto;
 }
@@ -90,25 +91,29 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	
 }
 
-.text-hero, .poteseni {
+.hero-box {
 	max-width: 1100px;
 	margin: 0 auto;
 	color: white;
 }
 
+.hero-subbox {
+	width: 60%;
+}
+
 .poteseni {
 	font-size: 52px;
-	padding-top: 60px;
-	padding-bottom: 30px;
+	margin-top: 0;
 }
 
 .text-hero {
 	font-size: 24px;
 	color: white;
 	font-style: italic;
-	padding-bottom: 60px;
+	margin-bottom: 0;
 }
 
 .vitejte {
